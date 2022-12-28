@@ -1,8 +1,8 @@
 # Automation_Project
-This project is indetend to work on AWS services and autmate serveral install using sheel script.
+This project is indetend to work on AWS services and automate service installs using shell script.
 
 First created IAM roles, security group,EC2 instance and s3 bucket.
-Once the above resourcse ate created , have wriiten shell script to install packgaes below
+Once the above resourcse are created , have wriiten shell script to install packgaes below
 1>apache2
 2>up the apache2 servieces .
 3>install aws cli maunally.
