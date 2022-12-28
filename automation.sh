@@ -3,7 +3,7 @@
 
 #!/bin/bash	
 
-##Creating variable
+##Creating variables
 
 s3_bucket="upgrad-raghavendra"
 myname="raghavendra"
@@ -19,17 +19,16 @@ sudo apt update -y
 sudo apt-get install apache2 -y
 
 
-#checking if apache package is running or not.
+###checking if apache2 service is running or not.
 
 sudo systemctl status apache2
 
 
-###To run the package package
+###To start the apache2 services
 
 sudo systemctl start apache2
 
-##To eneable apchae to services.
-
+##To eneable apchae2 services.
 
 sudo systemctl enable apache2
 
