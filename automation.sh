@@ -19,7 +19,7 @@ sudo apt update -y
 sudo apt-get install apache2 -y
 
 
-#checking if apache2 service is running or not.
+###checking if apache2 service is running or not.
 
 sudo systemctl status apache2
 
