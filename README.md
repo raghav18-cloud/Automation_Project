@@ -10,7 +10,7 @@ Once the above resourcse ate created , have wriiten shell script to install pack
 5>creating an inventory file in /var/www/html/inventory.html, this invetory file contains four feilds 
 Log Type         Time Created         Type        Size
 the shell script is providing the data to inventory file with the above fields mentioned, importantly this file will always be apended.
-6>further have setup a cronjob for the automation.sh script to run every minute to collect and append the data into inventory file
+6>Further have schedule a cron job  within the same script automation.sh to run every minute to collect and append the data into inventory file
 to have a  complete automation setup.
 
-With the automation.sh shell script the process of installing packages,collecting data and appending to inventoryfile is completely  automated.
+With the automation.sh shell script the process of installing packages,collecting logs data  and appending to inventory file is completely automated.
