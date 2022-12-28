@@ -34,14 +34,11 @@ sudo systemctl start apache2
 sudo systemctl enable apache2
 
 
-###
+######Archiving only the log files using tar command
 
 sudo tar -cvf /tmp/raghavendra-httpd-logs-"$timestamp".tar /var/log/apache2/*.log
 
-
-
 ###Now connecting to aws cli and cpoying the log file from /tmp and uploading it into the 
-
 aws s3 \
  cp /tmp/${myname}-httpd-logs-${timestamp}.tar \
  s3://${s3_bucket}/${myname}-httpd-logs-${timestamp}.tar
