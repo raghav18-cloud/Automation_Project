@@ -2,8 +2,8 @@
 This project is indetend to work on AWS services and automate service installs using shell script.
 
 First created IAM roles, security group,EC2 instance and s3 bucket.
-Once the above resourcse are created , have wriiten shell script to install packgaes below
-1>apache2
+Once the above resourcse are created , have wriiten shell script to perform the below task.
+1>apache2 install
 2>up the apache2 servieces .
 3>install aws cli maunally.
 4>capture the log files of apache2 and psuh them to s3 bucket from the shellscript commands.
